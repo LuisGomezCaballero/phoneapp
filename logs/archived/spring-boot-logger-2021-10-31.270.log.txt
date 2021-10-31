@@ -1,0 +1,9 @@
+16:26:27.130 [main] INFO  c.l.phoneapp.PhoneappApplication - Saving phone data into the database...
+16:26:27.338 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:26:28.517 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+16:26:28.541 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 58407 (http) with context path ''
+16:26:28.555 [main] INFO  c.l.phoneapp.HttpRequestTest - Started HttpRequestTest in 5.57 seconds (JVM running for 6.583)
+16:26:28.814 [http-nio-auto-1-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:26:28.815 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:26:28.817 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+16:26:29.147 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.luisgomezcaballero.phoneapp.SmokeTest], using SpringBootContextLoader

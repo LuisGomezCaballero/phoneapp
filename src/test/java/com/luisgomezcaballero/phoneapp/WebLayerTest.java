@@ -16,6 +16,7 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.web.servlet.MockMvc;
 
 import com.luisgomezcaballero.phoneapp.model.Phone;
+import com.luisgomezcaballero.phoneapp.repository.PhoneRepository;
 import com.luisgomezcaballero.phoneapp.service.PhoneService;
 
 @WebMvcTest
@@ -26,6 +27,9 @@ class WebLayerTest {
 
 	@MockBean
 	private PhoneService phoneService;
+	@MockBean
+
+	private PhoneRepository phoneRepository;
 
 	@Test
 	void shouldReturnDefaultMessage() throws Exception {
@@ -40,7 +44,7 @@ class WebLayerTest {
 
 		phones.add(phone1);
 
-		when(phoneService.getPhones()).thenReturn(phones);
+		when(phoneRepository.findAll()).thenReturn(phones);
 
 		this.mockMvc.perform(get("/phones")).andDo(print()).andExpect(status().isOk());
 	}

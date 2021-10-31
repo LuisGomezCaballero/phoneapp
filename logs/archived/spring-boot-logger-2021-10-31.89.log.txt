@@ -1,0 +1,8 @@
+15:49:33.218 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:49:33.672 [main] INFO  c.l.phoneapp.PhoneappApplication - Saving phone data into the database...
+15:49:33.867 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:49:35.112 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+15:49:35.137 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 57192 (http) with context path ''
+15:49:35.148 [main] INFO  c.l.phoneapp.HttpRequestTest - Started HttpRequestTest in 5.597 seconds (JVM running for 6.584)
+15:49:35.410 [http-nio-auto-1-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:49:35.411 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'

@@ -1,0 +1,8 @@
+16:00:13.543 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+16:00:13.620 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:00:13.620 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:00:13.705 [main] INFO  c.l.phoneapp.PhoneappApplication - Saving phone data into the database...
+16:00:13.966 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:00:14.852 [main] INFO  c.l.phoneapp.SmokeTest - Started SmokeTest in 1.834 seconds (JVM running for 9.212)
+16:00:14.890 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.luisgomezcaballero.phoneapp.WebLayerTest], using SpringBootContextLoader
+16:00:14.891 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.luisgomezcaballero.phoneapp.WebLayerTest]: no resource found for suffixes {-context.xml, Context.groovy}.

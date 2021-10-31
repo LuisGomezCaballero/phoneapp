@@ -21,17 +21,17 @@ public class PhoneController {
 	private static final Logger log = LoggerFactory.getLogger(PhoneController.class);
 
 	@Autowired
-	PhoneService phoneCatalogService;
+	PhoneService phoneService;
 
 	@GetMapping("/phones")
 	public List<Phone> getPhones() {
-		return phoneCatalogService.getPhones();
+		return phoneService.getPhones();
 	}
 
 	@PostMapping("/place-order")
 	public BigDecimal placeOrder(@RequestBody ShopOrder order) {
 		log.info("{}", order);
 
-		return phoneCatalogService.placeOrder(order.getCart());
+		return phoneService.placeOrder(order.getCart());
 	}
 }
