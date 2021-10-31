@@ -1,0 +1,21 @@
+12:24:22.972 [Thread-53] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:24:22.974 [Thread-53] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+12:24:22.974 [Thread-53] ERROR o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000478: Unsuccessful: drop table if exists order CASCADE 
+12:24:23.190 [Thread-53] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+12:24:23.191 [Thread-53] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown initiated...
+12:24:23.200 [Thread-53] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown completed.
+12:24:23.346 [restartedMain] INFO  c.l.phoneapp.PhoneappApplication - Starting PhoneappApplication using Java 1.8.0_291 on XPS15-9500 with PID 15656 (C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\phoneapp\target\classes started by Luis in C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\phoneapp)
+12:24:23.346 [restartedMain] INFO  c.l.phoneapp.PhoneappApplication - No active profile set, falling back to default profiles: default
+12:24:23.528 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:24:23.538 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+12:24:23.643 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:24:23.643 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+12:24:23.644 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:24:23.644 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+12:24:23.659 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:24:23.659 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 310 ms
+12:24:23.667 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Starting...
+12:24:23.670 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Start completed.
+12:24:23.670 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
+12:24:23.686 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:24:23.690 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect

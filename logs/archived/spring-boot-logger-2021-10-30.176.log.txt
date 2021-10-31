@@ -1,0 +1,6 @@
+18:08:19.731 [Thread-53] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:08:19.942 [Thread-53] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+18:08:19.942 [Thread-53] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown initiated...
+18:08:19.946 [Thread-53] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown completed.
+18:08:20.418 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:08:20.557 [restartedMain] WARN  c.l.phoneapp.PhoneappApplication - ****** POST RUN

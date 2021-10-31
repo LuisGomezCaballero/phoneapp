@@ -1,0 +1,6 @@
+11:57:50.871 [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+11:57:50.883 [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+11:58:01.502 [restartedMain] INFO  c.l.phoneapp.PhoneappApplication - Starting PhoneappApplication using Java 1.8.0_291 on XPS15-9500 with PID 15656 (C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\phoneapp\target\classes started by Luis in C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\phoneapp)
+11:58:01.503 [restartedMain] INFO  c.l.phoneapp.PhoneappApplication - No active profile set, falling back to default profiles: default
+11:58:01.578 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:58:01.578 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'

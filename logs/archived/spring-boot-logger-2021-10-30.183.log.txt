@@ -1,0 +1,8 @@
+18:47:18.338 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+18:47:18.354 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:47:18.369 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:47:18.377 [restartedMain] INFO  c.l.phoneapp.PhoneappApplication - Started PhoneappApplication in 4.627 seconds (JVM running for 5.292)
+18:49:40.525 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:49:40.527 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:49:40.529 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+18:49:40.651 [http-nio-8080-exec-2] INFO  c.l.p.controller.PhoneController - Order [id=null, name=Luis, surname=Gómez, email=luis@mail.com, cart=[Phone [id=null, image=https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-pro-max-01.jpg, name=Apple iPhone 13 Pro Max, description=iOS 15, upgradable to iOS 15.1, price=1099, order=null], Phone [id=null, image=https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-pro-i-1.jpg, name=Sony Xperia Pro-I, description=Android 11, price=1800, order=null], Phone [id=null, image=https://fdn2.gsmarena.com/vv/pics/google/google-pixel-6-pro-1.jpg, name=Google Pixel 6 Pro, description=Android 12, price=1449.99, order=null]]]

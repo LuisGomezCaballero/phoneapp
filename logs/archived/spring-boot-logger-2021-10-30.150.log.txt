@@ -1,0 +1,11 @@
+17:43:28.276 [RMI TCP Connection(321)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+17:43:28.442 [RMI TCP Connection(321)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:43:28.659 [RMI TCP Connection(321)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+17:43:28.660 [RMI TCP Connection(321)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-28 - Shutdown initiated...
+17:43:28.706 [RMI TCP Connection(321)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-28 - Shutdown completed.
+17:58:59.360 [restartedMain] INFO  c.l.phoneapp.PhoneappApplication - Starting PhoneappApplication using Java 1.8.0_291 on XPS15-9500 with PID 24216 (C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\phoneapp\target\classes started by Luis in C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\phoneapp)
+17:58:59.361 [restartedMain] INFO  c.l.phoneapp.PhoneappApplication - No active profile set, falling back to default profiles: default
+17:58:59.414 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:58:59.414 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:58:59.921 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:58:59.967 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.

@@ -1,0 +1,45 @@
+18:05:37.441 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:05:37.443 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:05:37.480 [restartedMain] INFO  c.l.phoneapp.PhoneappApplication - Saving phone data into the database...
+18:05:37.635 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+18:05:37.641 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:05:37.642 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:05:37.645 [restartedMain] INFO  c.l.phoneapp.PhoneappApplication - Started PhoneappApplication in 0.544 seconds (JVM running for 399.356)
+18:05:37.652 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   JpaBaseConfiguration.JpaWebConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.jpa.open-in-view=true) found different value in property 'open-in-view' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+

@@ -1,0 +1,25 @@
+20:30:56.698 [File Watcher] DEBUG o.s.boot.devtools.restart.Restarter - Restarting application
+20:30:56.700 [Thread-111] DEBUG o.s.boot.devtools.restart.Restarter - Stopping application
+20:30:56.701 [Thread-111] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+20:30:56.701 [Thread-111] DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@43502e24, started on Fri Oct 29 20:30:45 CEST 2021
+20:30:56.702 [Thread-111] DEBUG o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+20:30:56.702 [Thread-111] DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'webServerGracefulShutdown' completed its stop procedure
+20:30:56.702 [Thread-111] DEBUG o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483646
+20:30:56.953 [Thread-111] DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'webServerStartStop' completed its stop procedure
+20:30:56.954 [Thread-111] DEBUG o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+20:30:56.954 [Thread-111] DEBUG o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+20:30:57.018 [Thread-111] DEBUG o.s.b.d.r.c.RestartClassLoader - Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@21c4396b
+20:30:57.018 [Thread-111] DEBUG o.s.boot.devtools.restart.Restarter - Starting application com.luisgomezcaballero.phoneapp.PhoneappApplication with URLs [file:/C:/Users/Luis/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/phoneapp/target/classes/]
+20:30:57.069 [restartedMain] INFO  c.l.phoneapp.PhoneappApplication - Starting PhoneappApplication using Java 1.8.0_291 on XPS15-9500 with PID 13324 (C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\phoneapp\target\classes started by Luis in C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\phoneapp)
+20:30:57.069 [restartedMain] INFO  c.l.phoneapp.PhoneappApplication - No active profile set, falling back to default profiles: default
+20:30:57.300 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+20:30:57.301 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:30:57.301 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:30:57.301 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+20:30:57.316 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:30:57.316 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 243 ms
+20:30:57.460 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+20:30:57.469 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:30:57.471 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+20:30:57.476 [restartedMain] INFO  c.l.phoneapp.PhoneappApplication - Started PhoneappApplication in 0.448 seconds (JVM running for 375.755)
+20:30:57.477 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged

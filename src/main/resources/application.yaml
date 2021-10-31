@@ -1,0 +1,4 @@
+server:  port: 8080
+logging:
+  level:
+    root: info#    '[org.apache.tomcat]': INFO#    '[org.apache.tomcat.util.net]': WARNspring:  main:    banner-mode: console  banner:    location: classpath:custom-banner.txt  jpa:#    database-platform: org.hibernate.dialect.H2Dialect    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect    generate-ddl: true    hibernate:      ddl-auto: create-drop#    open-in-view: true      datasource:#    url: jdbc:h2:mem:mydb#    driverClassName: org.h2.Driver#    username: sa#    password: password    url: jdbc:mysql://localhost:3306/phoneappdb    driverClassName: com.mysql.cj.jdbc.Driver    username: root    password: password#  h2:#    console.enabled: true #    console.path: /h2-console#    http://localhost:8080/h2-console
