@@ -14,11 +14,6 @@ pipeline {
     }
 
     stage('Unit test') {
-      when {
-        expression {
-          false
-        }
-      }
       steps {
         script {
           def mvnHome = tool 'Maven 3.8.1'
@@ -29,11 +24,6 @@ pipeline {
     }
 
     stage('Integration test') {
-      when {
-        expression {
-          false
-        }
-      }
       steps {
         script {
           def mvnHome = tool 'Maven 3.8.1'
@@ -60,7 +50,7 @@ pipeline {
       }
     }
 
-    stage('Deployment') {
+    stage('Deployment spring-boot:run') {
       steps {
         script {
           def mvnHome = tool 'Maven 3.8.1'
@@ -69,6 +59,16 @@ pipeline {
           // sh "pid=\$(lsof -i:8082 -t); kill -TERM \$pid || kill -KILL \$pid"
           sh "nohup '${mvnHome}/bin/mvn' spring-boot:run -Dserver.port=8082 &"
         }
+      }
+    }
+
+    stage('Deployment Docker') {
+      when {
+        expression {
+          false
+        }
+      }
+      steps {
       }
     }
     
