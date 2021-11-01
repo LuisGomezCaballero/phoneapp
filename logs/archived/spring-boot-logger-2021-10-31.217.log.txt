@@ -1,9 +1,0 @@
-16:22:03.797 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
-16:22:03.799 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
-16:23:03.087 [main] INFO  c.l.phoneapp.HttpRequestTest - Starting HttpRequestTest using Java 1.8.0_291 on XPS15-9500 with PID 23916 (started by Luis in C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\phoneapp)
-16:23:03.089 [main] INFO  c.l.phoneapp.HttpRequestTest - No active profile set, falling back to default profiles: default
-16:23:03.680 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-16:23:03.726 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
-16:23:04.573 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
-16:23:04.583 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
-16:23:04.584 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]

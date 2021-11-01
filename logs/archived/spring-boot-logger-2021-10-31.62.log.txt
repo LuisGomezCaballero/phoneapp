@@ -1,8 +1,0 @@
-15:44:04.367 [main] INFO  c.l.phoneapp.HttpRequestTest - Started HttpRequestTest in 5.647 seconds (JVM running for 6.633)
-15:44:04.671 [http-nio-auto-1-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-15:44:04.672 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-15:44:04.673 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-15:44:05.023 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.luisgomezcaballero.phoneapp.SmokeTest], using SpringBootContextLoader
-15:44:05.025 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.luisgomezcaballero.phoneapp.SmokeTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-15:44:05.026 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.luisgomezcaballero.phoneapp.SmokeTest]: SmokeTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-15:44:05.027 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.luisgomezcaballero.phoneapp.PhoneappApplication for test class com.luisgomezcaballero.phoneapp.SmokeTest
