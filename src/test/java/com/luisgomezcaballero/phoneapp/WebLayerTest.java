@@ -27,8 +27,8 @@ class WebLayerTest {
 
 	@MockBean
 	private PhoneService phoneService;
+	
 	@MockBean
-
 	private PhoneRepository phoneRepository;
 
 	@Test
