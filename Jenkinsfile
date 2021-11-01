@@ -13,24 +13,24 @@ pipeline {
       }
     }
 
-    stage('Unit test') {
-      steps {
-        script {
+//    stage('Unit test') {
+//      steps {
+//        script {
 //          def mvnHome = tool 'Maven 3.8.1'
 //          sh "'${mvnHome}/bin/mvn' test"
 //          junit 'target/surefire-reports/*.xml'
-        }
-      }
-    }
+//        }
+//      }
+//    }
 
-    stage('Integration test') {
-      steps {
-        script {
+//    stage('Integration test') {
+//      steps {
+//        script {
 //          def mvnHome = tool 'Maven 3.8.1'
 //          sh "'${mvnHome}/bin/mvn' verify -Dunit-tests.skip=true"
-        }
-      }
-    }
+//        }
+//      }
+//    }
 
     stage('Package') {
       steps {
