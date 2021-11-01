@@ -14,11 +14,11 @@ pipeline {
     }
 
     stage('Unit test') {
-//      when {
-//        expression {
-//          false
-//        }
-//      }
+      when {
+        expression {
+          false
+        }
+      }
       steps {
         script {
           def mvnHome = tool 'Maven 3.8.1'
@@ -29,11 +29,11 @@ pipeline {
     }
 
     stage('Integration test') {
-//      when {
-//        expression {
-//          false
-//        }
-//      }
+      when {
+        expression {
+          false
+        }
+      }
       steps {
         script {
           def mvnHome = tool 'Maven 3.8.1'
