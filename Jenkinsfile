@@ -36,7 +36,7 @@ pipeline {
       steps {
         script {
           def mvnHome = tool 'Maven 3.8.1'
-          sh "'${mvnHome}/bin/mvn' package"
+          sh "'${mvnHome}/bin/mvn' package  -DskipTests=true -Dintegration-tests.skip=true"
         }
       }
     }
