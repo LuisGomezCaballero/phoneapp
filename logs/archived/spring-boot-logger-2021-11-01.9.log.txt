@@ -1,0 +1,8 @@
+10:28:12.546 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+10:28:12.547 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+10:28:12.548 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+10:28:12.552 [main] INFO  c.l.phoneapp.PhoneappApplicationTest - Started PhoneappApplicationTest in 1.111 seconds (JVM running for 10.944)
+10:28:12.761 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+10:28:12.761 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+10:28:12.765 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:28:12.767 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

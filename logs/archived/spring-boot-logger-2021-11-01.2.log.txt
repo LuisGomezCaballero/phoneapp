@@ -1,0 +1,9 @@
+10:28:08.276 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+10:28:08.308 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 50906 (http) with context path ''
+10:28:08.321 [main] INFO  c.l.phoneapp.HttpRequestTest - Started HttpRequestTest in 5.745 seconds (JVM running for 6.712)
+10:28:08.588 [http-nio-auto-1-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:28:08.589 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:28:08.590 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+10:28:08.943 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.luisgomezcaballero.phoneapp.SmokeTest], using SpringBootContextLoader
+10:28:08.944 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.luisgomezcaballero.phoneapp.SmokeTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:28:08.944 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.luisgomezcaballero.phoneapp.SmokeTest]: SmokeTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
